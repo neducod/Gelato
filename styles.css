@@ -11,7 +11,7 @@ body{
 }
 .pop-up{
     display: flex;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(45, 43, 43);
     height: 50px;
     padding-top: 16px;
     justify-content: center;
@@ -767,3 +767,50 @@ footer{
 
 
 /*SUBSCRIBE*/
+
+
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 590px;
+    }
+    .header img{
+        width: 120px;
+        margin-top: 110px;
+        padding-left: 150px;
+    }
+    .over-lay{
+        padding-top: 0px;
+    }
+    .over-lay h2{
+        font-size: 15px;
+    }
+    .over-lay h1{
+        font-size: 40px;
+    }
+    .menu{
+        flex-direction: column-reverse;
+    }
+    .menu-image img{
+        display: block;
+        max-width: 100%;
+    }
+    .menu-text{
+        gap: 10px;
+        text-align: center;
+    }
+    .menu-text h5{
+        font-size: 14px;
+        width: 280px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-weight: 100;
+    }
+    #nmn{
+        margin-left: 60px;
+        width: 150px;
+        height: 40px;
+        margin-bottom: 50px;
+    }
+}
